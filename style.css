@@ -1,0 +1,55 @@
+fieldset {
+  margin: 2em 0;
+}
+
+.slidersAndText {
+  display: flex;
+  justify-content: space-between;
+}
+
+#text {
+  padding: .5em;
+  border: 1px solid silver;
+  width: 40%;
+  margin: 0;
+}
+
+.slidersWrapper {
+  width: 50%;
+  padding: .5em;
+}
+
+.slider {
+  margin-bottom: 1em;
+}
+
+.red > .ui-widget-header {
+  background-color: red;
+}
+
+.red > .ui-state-default {
+  border-color: red;
+}
+
+.green > .ui-widget-header {
+  background-color: green;
+}
+
+.green > .ui-state-default {
+  border-color: green;
+}
+
+.blue > .ui-widget-header {
+  background-color: blue;
+}
+
+.blue > .ui-state-default {
+  border-color: blue;
+}
+
+.activeBtn, .btn:focus {
+  border: 1px solid #003eff;
+	background: #007fff;
+	font-weight: normal;
+	color: #ffffff;
+}
